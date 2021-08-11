@@ -1,3 +1,4 @@
+
 window.onload =function(){
 const item = document.querySelector('.item');
 
@@ -36,4 +37,5 @@ function dragDrop(event){
     event.target.classList.remove('hovered')
     event.target.append(item)
 }
+
 }
